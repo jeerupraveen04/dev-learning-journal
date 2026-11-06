@@ -10,6 +10,19 @@
 
 ---
 
+<!--
+FILE LOCATION
+  Save as:  YYYY/Month/YYYY-MM-DD/topic-name.md
+  Example:  2026/November/2026-11-06/javascript-numeric-separators.md
+
+  The date folder carries the date, so the filename does not repeat it.
+  Only create a date folder for a day that actually has an entry.
+
+  Also generate topic-name.html alongside it — a self-contained,
+  cream-and-orange reading copy. Markdown is canonical; HTML is
+  generated from it. Never hand-edit the HTML.
+-->
+
 ## 1. Introduction
 
 One short paragraph: what this entry is about and who it is for. No preamble, no "in today's fast-paced world".
