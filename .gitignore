@@ -1,0 +1,32 @@
+# Node ignore rules for the learning journal
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Local scratch space — notes not ready to publish
+scratch/
+*.local.md
+*.draft.md
+
+# Dependencies / build output (in case a snippet folder is ever added)
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Env files — never commit secrets, even in a learning repo
+.env
+.env.*
+!.env.example
+.commandcode/
