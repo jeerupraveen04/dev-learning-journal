@@ -115,6 +115,17 @@ python3 -m http.server 8000
 
 `file://` URLs work too — there is nothing to fetch.
 
+### Publishing
+
+Entries are also published as a static site on Vercel, so each one has a short link that can be shared or pasted into a comment:
+
+```bash
+npm run build      # regenerates public/ from the dated entry folders
+vercel --prod
+```
+
+The build is generated, never committed — `public/` is gitignored. See [`DEPLOY.md`](DEPLOY.md) for project settings and the URL shape.
+
 ## Entry Template
 
 Every entry follows the same ten sections so the journal stays consistent and easy to skim. See [`TEMPLATE.md`](TEMPLATE.md).

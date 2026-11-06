@@ -25,6 +25,10 @@ build/
 coverage/
 *.log
 
+# Generated deploy output — rebuild with: node scripts/build-site.mjs
+public/
+.vercel
+
 # Env files — never commit secrets, even in a learning repo
 .env
 .env.*

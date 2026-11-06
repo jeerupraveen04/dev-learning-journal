@@ -1,0 +1,16 @@
+# Files Vercel does not need to upload.
+
+# Git internals
+.git
+.gitignore
+
+# Local scratch
+scratch
+*.local.md
+*.draft.md
+
+# Editor noise
+.vscode
+.idea
+*.swp
+.DS_Store

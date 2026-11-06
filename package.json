@@ -1,0 +1,10 @@
+{
+  "name": "dev-learning-journal",
+  "private": true,
+  "type": "module",
+  "description": "Public learning journal - source of truth is the Markdown in dated folders.",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "dev": "node scripts/build-site.mjs && npx --yes serve public -l 8000"
+  }
+}
